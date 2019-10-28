@@ -1,0 +1,28 @@
+.all {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+	background-color: #ffb3e6;
+}
+.flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.col_left {
+	min-height: 700px;
+	background-color: #99ffcc;
+	flex-grow: 1;
+}
+.col_mid {
+	min-height: 700px;
+	background-color: #ccffff;
+	margin-left: 2%;
+	margin-right: 2%;
+	flex-grow: 1;
+}
+.col_right {
+	min-height: 700px;
+	background-color: #ffffb3;
+	flex-grow: 1;
+}
