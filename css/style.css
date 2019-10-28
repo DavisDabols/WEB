@@ -2,6 +2,7 @@
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 50px;
+	min-height: 1500px;
 	background-color: #ffb3e6;
 }
 .flex {
@@ -10,19 +11,28 @@
 	justify-content: space-between;
 }
 .col_left {
-	min-height: 700px;
+	min-height: 500px;
 	background-color: #99ffcc;
-	flex-grow: 1;
+	max-width: 28%;
+	padding-right: 2%;
+	padding-left: 2%;
 }
 .col_mid {
-	min-height: 700px;
+	min-height: 500px;
 	background-color: #ccffff;
 	margin-left: 2%;
 	margin-right: 2%;
-	flex-grow: 1;
+	max-width: 28%;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 .col_right {
-	min-height: 700px;
+	min-height: 500px;
 	background-color: #ffffb3;
-	flex-grow: 1;
+	max-width: 28%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.centret {
+	text-align: center;
 }
